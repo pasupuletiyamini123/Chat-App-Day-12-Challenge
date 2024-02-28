@@ -1,0 +1,137 @@
+body {
+    background: url('https://preview.redd.it/3jfjc53fsyb61.jpg?width=640&crop=smart&auto=webp&s=003f69df91a1d37712f562ef9541982da31a307a') center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  
+  .button {
+    border: none;
+    padding: 0.625em;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    filter: brightness(0.9);
+  }
+  
+  .button:active {
+    transform: translateY(2px);
+  }
+  
+  .person-selector {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 3em auto 1em;
+    max-width: 40em;
+  }
+  
+  .person-selector-button {
+    width: 100%;
+    background-color: gray;
+    color: #96c2d0;
+    font-size: 1.1em;
+  }
+  
+  .active-person {
+    background: #4b4e52;
+    box-shadow: 0 0 0.5em 0.1em #c3c3c333;
+  }
+  
+  .chat-container {
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.5em;
+    padding: 0.5em 1.25em;
+    margin: auto;
+    max-width: 37.5em;
+    height: 37.5em;
+    box-shadow: 0 0 1.25em 0.5em #c3c3c333;
+  }
+  
+  .chat-header {
+    margin-bottom: 1em;
+    color: #fff;
+  }
+  
+  .chat-header h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
+  .chat-messages {
+    height: 23em;
+    overflow-y: scroll;
+  }
+  
+  .chat-messages::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .message {
+    padding: 0.625em;
+    border-radius: 1em;
+    margin-bottom: 0.625em;
+    display: flex;
+    flex-direction: column;
+    color: rgb(253, 253, 255);
+    font-size: larger;
+  }
+  
+  .message-sender {
+    font-weight: bold;
+    margin-bottom: 0.31em;
+    color: green;
+    
+  }
+  
+  .message-text {
+    font-size: 1em;
+    margin-bottom: 0.31em;
+    word-wrap: break-word;
+  }
+  
+  .message-timestamp {
+    font-size: 0.75em;
+    text-align: right;
+  }
+  
+  .blue-bg {
+    background-color: transparent;
+  }
+  
+  .gray-bg {
+    background-color: transparent;
+  }
+  
+  .chat-input-form {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    gap: 0.625em;
+  }
+  
+  .chat-input {
+    padding: 0.625em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: whitesmoke;
+    color: #333;
+    font-size: 1em;
+    flex-grow: 1;
+  }
+  
+  .send-button {
+    background-color: #1c9bef;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .clear-chat-button {
+    background-color: lightblue;
+    display: block;
+    margin: 2.5em auto;
+  }
